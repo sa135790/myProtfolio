@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
 }
 
 body{
@@ -8,13 +8,23 @@ body{
         font-family: "Poppins", sans-serif;
         /* font-weight: 100;
         font-style: normal; */
-      }
-}
-
-h1{
-    font-size: 40px;
+        
+        
+    }
+   
 }
 
 .font_color{
     color: orange;
+}
+
+.halfWidth{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.halfWidth img{
+    width: 100%;
 }
