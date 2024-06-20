@@ -24,7 +24,7 @@ body{
 }
 
 .halfWidth img{
-    width: 100%;
+    width: 90%;
 }
 
 .top_banner{ 
@@ -54,5 +54,40 @@ p{
 .dream-area{
     background-repeat: no-repeat;
     background-position: right;
-    background-size:70px;
+    background-size:100px; 
 }
+
+/* .experience-area{
+    border: 2px solid tomato;
+} */
+
+
+.single-experience{
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 5px;
+    height: 70%;
+}
+
+.experience-area{
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100px;
+}
+
+#full-stack{
+   border-left: 7px solid;
+   border-image: linear-gradient(180deg,lightSalmon,tomato);
+   border-image-slice: 1;
+
+    
+}
+
+
+#trinee{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+    background-color: white;
+ 
+     
+ }
